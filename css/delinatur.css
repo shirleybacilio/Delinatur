@@ -1,0 +1,162 @@
+* {
+  font-family: 'Finger Paint';
+}
+body,
+.navbar {
+  background: url(../img/ice1.png);
+  background-size: 100%;
+  border-color: transparent;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.navbar-collapse.in {
+  overflow-y: hidden;
+}
+.mg-50 {
+  margin-top: 10%; 
+}
+
+/*---header---*/
+
+header .nav {
+  padding: 0 5%;
+}
+header .nav > li > a {
+  margin: 0 10px;
+  color: #fff;
+  font-size: 1.5em;
+  font-family: 'Finger Paint';
+  border-color: transparent;
+}
+.nav-tabs.nav-justified > li > a {
+  border-bottom: 1px solid transparent;
+} 
+.nav-tabs > li > .home {
+  background-color: #FDC74F;
+}
+.nav-tabs > li > .nosotros {
+  background-color: #EB7400;
+}
+.nav-tabs > li > .producto {
+  background-color: #DB666C;
+}
+.nav-tabs > li > .contacto {
+  background-color: #816D53;
+}
+.nav-tabs > li > a {
+  background-color: #FFE992;
+}
+.nav > li > a:hover,
+.nav > li > a:focus {
+  background-color: #FFE992;
+  border-color: #FFE992;
+  color: #000;
+}
+
+.carousel-inner img{
+  width: 100%;
+}
+.carousel-inner h1{
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-bottom: 20%;
+  color: #fff;
+}
+.carousel-inner span{
+  color: red;
+}
+.carousel-caption h1{
+background-color: rgba(59, 31, 32, 0.4);
+background: rgba(59, 31, 32, 0.4);
+padding: 2%;
+}
+.logo {
+  width: 70%;
+}
+
+/*---nosotros---*/
+/*--5E4D38--*/
+#nosotros {
+  background: rgba(252,245,219,0.2);
+}
+h2 {
+  font-family: 'Titan One'!important;
+  font-size: 4em;
+  color: #FFF;
+  text-shadow: 0.1px 0.8px 1px #4D4D4D;
+}
+#nosotros .row {
+  padding: 5% 0;
+  font-family: 'Finger Paint';
+
+}
+#nosotros .col-sm-8 > p:first-child {
+  font-size: 1.5em;
+  color: #5E4D38;
+  font-weight: 600;
+  line-height: 1;
+  margin-top: 10%;
+}
+
+#nosotros span {
+  font-family: 'Titan One'!important;
+  font-size: 1.5em;
+  color: #fff;
+}
+#nosotros .col-sm-1 {
+  background-color: #EFC043;
+  border-radius: 100%;
+  padding: 15px;
+  text-align: center;
+  margin: 0px;
+}
+
+.col-sm-8 p{
+  font-size: 1.5em;
+}
+
+/*---producto--*/
+
+#producto ul {
+  display: inline-block;
+  margin:   2% 23%;
+}
+
+li {
+  border-radius: 5px;
+  background-color: #fff;
+  list-style-type: none;
+  float: left;
+  display: inline-block;
+  margin: 0px 10px;
+  position: relative;
+  width: 250px;
+  overflow: hidden;
+  padding: 0px;
+  text-align: center;
+}
+li.slider-box > h3 {
+  font-family: 'Finger Paint';
+}
+li.slider-box > p {
+  padding: 0 ´4%;
+  font-size: 0.9em;
+}
+/*---contacto---*/
+
+#contacto p{
+  font-weight:  bold; 
+  font-size:  1em;
+}
+
+/*---footer---*/
+
+footer.navbar-inverse {
+  padding: 2%;
+  color: #fff;
+  font-size: 10px;
+}
+
+.pt-5{
+  padding: 5%;
+}
